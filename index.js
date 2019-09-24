@@ -24,7 +24,7 @@ app.get('/about', (req,res) => {
     res.render('about.hbs');
 })
 
-const PORT = process.env.PORT || 3004;
+const PORT = process.env.PORT || 3002;
 
 app.listen(PORT, () => {
     console.log("Server is running")
