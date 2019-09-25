@@ -1,0 +1,31 @@
+
+<h2 >Добавить обьявление</h2>
+<form action="/add" method="POST">
+  <div class="input-field col s6">
+    <input name="first_name"id="first_name" type="text" class="validate">
+    <label for="first_name">Ads Name</label>
+  </div>
+  <div class="input-field col s6">
+    <input name="description"  id="description" type="text" class="validate">
+    <label for="description">Description</label>
+  </div>
+  <div class="input-field col s6">
+    <input name="author" id="author" type="text" class="validate">
+    <label for="author">Author</label>
+  </div>
+  <div class="input-field col s6">
+    <input name="price" id="price" type="number" class="validate">
+    <label for="price">Price</label>
+  </div>
+  <div class="input-field col s6">
+    <input name="phone" id="phone" type="number" class="validate">
+    <label for="phone">Number Phone</label>
+  </div>
+  <div class="input-field col s6">
+    <input name="image" id="image" type="text" class="validate">
+    <label for="image">URL image</label>
+  </div>
+  <button>
+     <a onclick="M.toast({html: 'Ads Added'})" class="btn">Add!</a>
+  </button>
+</form>

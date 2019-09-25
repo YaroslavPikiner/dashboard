@@ -13,15 +13,18 @@
         {{/if}}
 
        {{#if isCourses}}
-          <li class="active"><a href="/courses">Обьявления</a></li>
+          <li class="active"><a href="/dashboard">Обьявления</a></li>
         {{else}}
-        <li ><a href="/courses">Обьявления</a></li>
+        <li ><a href="/dashboard">Обьявления</a></li>
         {{/if}}
 
          {{#if isAdd}}
           <li class="active"><a href="/add">Добавить обьявление</a></li>
         {{else}}
-        <li ><a class="btn-floating btn-large cyan pulse"><i class="material-icons">add</i></a></li>
+      
+       <li ><a class="btn-floating btn-large cyan pulse" href="/add"><i class="material-icons">add</i></a></li>
+       
+ 
         {{/if}}
       </ul>
     </div>
